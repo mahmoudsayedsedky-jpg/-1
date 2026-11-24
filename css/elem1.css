@@ -1,0 +1,98 @@
+*{
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+body{
+    direction: rtl;
+    margin: 0;
+     background-color: rgb(222, 218, 218);
+    
+}
+.parant{
+    
+    border-radius: 20px;
+    /* width: 600px; */
+    margin: 50px;
+}
+div > .head{
+    background-color:rgb(37, 65, 65,.9);
+    margin: 15px;
+    padding: 10px;
+    margin-bottom: 50px;
+    text-align: center;
+    
+    font-size: xx-large;
+    font-weight: bolder;
+    
+    border-radius: 50px;
+
+}
+.container{
+    border-radius: 20px;
+    
+    padding: 20px;
+    margin: auto;
+}
+@media screen and (min-width:550px){
+    .container{
+        width: 530px;
+    }
+}
+
+@media screen and (min-width:768px)
+{
+    .container{
+        width: 750px;
+    }
+
+}
+@media screen and (min-width:992px)
+{
+    .container{
+        width: 960px;
+    }
+
+}
+@media screen and (min-width:1200px)
+{
+    .container{
+        width: 1130px;
+    }
+
+}
+@media screen and (min-width:1400px)
+{
+    .container{
+        width: 1300px;
+    }
+}
+.container p{
+    margin: 20px;
+    padding: 20px;
+    border-radius: 50px;
+    margin: 20px;
+    font-size: xx-large;
+    font-weight: bold;
+    display: grid;
+    justify-items: center;
+    direction: rtl;
+    line-height: 1.7;
+    text-align: justify;
+    transition: .5s;
+    background-color:darkgray;
+    
+    
+
+}
+mark{
+    background-color: rgba(114, 149, 149, 0.2);
+    width: fit-content;
+    border-radius: 20px;
+    color: rgba(7, 27, 241, 0.5);
+    
+}
+.container p:not(.head):hover{
+     transform: scale(1.1);
+     background-color: rgb(202, 200, 200);
+}
